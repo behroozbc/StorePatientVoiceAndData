@@ -1,16 +1,15 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorePatientVoiceAndData.AppHost", "StorePatientVoiceAndData.AppHost\StorePatientVoiceAndData.AppHost.csproj", "{50AE6924-7152-4FB1-B40A-5DB0B26359B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorePatientVoiceAndData", "StorePatientVoiceAndData\StorePatientVoiceAndData\StorePatientVoiceAndData.csproj", "{4FEAF9E7-95DF-4DC5-99D4-F1DFC84CAB01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorePatientVoiceAndData.ServiceDefaults", "StorePatientVoiceAndData.ServiceDefaults\StorePatientVoiceAndData.ServiceDefaults.csproj", "{8203F41C-D00F-44D5-9532-6E750EDA5F82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorePatientVoiceAndData.Client", "StorePatientVoiceAndData\StorePatientVoiceAndData.Client\StorePatientVoiceAndData.Client.csproj", "{E5423706-04BC-4FE1-BA46-0F9A3D5337C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorePatientVoiceAndData.ApiService", "StorePatientVoiceAndData.ApiService\StorePatientVoiceAndData.ApiService.csproj", "{C0280EE5-D19A-43E8-A83C-7BD70C148A31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorePatientVoiceAndData.AppHost", "StorePatientVoiceAndData.AppHost\StorePatientVoiceAndData.AppHost.csproj", "{1E6DFF94-F4EF-4832-A5B3-351554267598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorePatientVoiceAndData.Web", "StorePatientVoiceAndData.Web\StorePatientVoiceAndData.Web.csproj", "{6C50509D-ECEB-4D86-BECC-A13E12A82453}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorePatientVoiceAndData.Tests", "StorePatientVoiceAndData.Tests\StorePatientVoiceAndData.Tests.csproj", "{EDF4DDF0-166B-45AD-8947-486D12E1EF4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorePatientVoiceAndData.ServiceDefaults", "StorePatientVoiceAndData.ServiceDefaults\StorePatientVoiceAndData.ServiceDefaults.csproj", "{7F4A2353-CA36-47F5-B2DC-C4249B816E2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,26 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{50AE6924-7152-4FB1-B40A-5DB0B26359B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{50AE6924-7152-4FB1-B40A-5DB0B26359B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{50AE6924-7152-4FB1-B40A-5DB0B26359B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{50AE6924-7152-4FB1-B40A-5DB0B26359B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8203F41C-D00F-44D5-9532-6E750EDA5F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8203F41C-D00F-44D5-9532-6E750EDA5F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8203F41C-D00F-44D5-9532-6E750EDA5F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8203F41C-D00F-44D5-9532-6E750EDA5F82}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C0280EE5-D19A-43E8-A83C-7BD70C148A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0280EE5-D19A-43E8-A83C-7BD70C148A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0280EE5-D19A-43E8-A83C-7BD70C148A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0280EE5-D19A-43E8-A83C-7BD70C148A31}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6C50509D-ECEB-4D86-BECC-A13E12A82453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C50509D-ECEB-4D86-BECC-A13E12A82453}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C50509D-ECEB-4D86-BECC-A13E12A82453}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C50509D-ECEB-4D86-BECC-A13E12A82453}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EDF4DDF0-166B-45AD-8947-486D12E1EF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDF4DDF0-166B-45AD-8947-486D12E1EF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDF4DDF0-166B-45AD-8947-486D12E1EF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EDF4DDF0-166B-45AD-8947-486D12E1EF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FEAF9E7-95DF-4DC5-99D4-F1DFC84CAB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEAF9E7-95DF-4DC5-99D4-F1DFC84CAB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEAF9E7-95DF-4DC5-99D4-F1DFC84CAB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEAF9E7-95DF-4DC5-99D4-F1DFC84CAB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5423706-04BC-4FE1-BA46-0F9A3D5337C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5423706-04BC-4FE1-BA46-0F9A3D5337C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5423706-04BC-4FE1-BA46-0F9A3D5337C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5423706-04BC-4FE1-BA46-0F9A3D5337C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6DFF94-F4EF-4832-A5B3-351554267598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6DFF94-F4EF-4832-A5B3-351554267598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6DFF94-F4EF-4832-A5B3-351554267598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6DFF94-F4EF-4832-A5B3-351554267598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4A2353-CA36-47F5-B2DC-C4249B816E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4A2353-CA36-47F5-B2DC-C4249B816E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4A2353-CA36-47F5-B2DC-C4249B816E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4A2353-CA36-47F5-B2DC-C4249B816E2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

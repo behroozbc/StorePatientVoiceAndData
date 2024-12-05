@@ -8,16 +8,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsAspireHost>true</IsAspireHost>
-    <UserSecretsId>83648d53-7294-48aa-acc5-fa6e6b0b51b8</UserSecretsId>
+    <UserSecretsId>251a17cd-0081-4727-8dd4-febd3aebe366</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StorePatientVoiceAndData.ApiService\StorePatientVoiceAndData.ApiService.csproj" />
-    <ProjectReference Include="..\StorePatientVoiceAndData.Web\StorePatientVoiceAndData.Web.csproj" />
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+    <ProjectReference Include="..\StorePatientVoiceAndData\StorePatientVoiceAndData\StorePatientVoiceAndData.csproj" />
   </ItemGroup>
 
 </Project>
